@@ -173,7 +173,7 @@ export function treatSVG(s, extra = '') {
   return `<svg viewBox="0 0 200 200" class="treat-svg" aria-hidden="true">${treatBody(s)}${decoSVG(s.deco || [])}${extra}</svg>`;
 }
 
-function treatBody(s) {
+export function treatBody(s) {
   const b = s.batter || '#f7d9a0';
   switch (s.recipe) {
     case 'cupcake': return cupcake(s, b);
@@ -259,6 +259,7 @@ export function decoSVG(list) {
   for (const d of list) {
     if (d.t === 's') g += `<rect x="${(d.x - 1.8).toFixed(1)}" y="${(d.y - 5).toFixed(1)}" width="3.6" height="10" rx="1.8" fill="${d.c}" transform="rotate(${d.r} ${d.x} ${d.y})"/>`;
     else if (d.t === 'k') g += `<g transform="translate(${d.x} ${d.y}) rotate(${d.r}) scale(.9)">${STICKERS[d.id].svg}</g>`;
+    else if (d.t === 'e') g += `<text x="${d.x}" y="${d.y}" font-size="${d.s || 22}" text-anchor="middle" dominant-baseline="central" transform="rotate(${d.r || 0} ${d.x} ${d.y})" class="emo">${d.e}</text>`;
     else if (d.t === 'l') g += `<g transform="translate(${d.x} ${d.y}) rotate(${d.r})"><circle r="12" fill="${d.c}" stroke="${INK}" stroke-width="2.5"/>
       <text y="5.5" text-anchor="middle" font-family="Fredoka, sans-serif" font-weight="700" font-size="16" fill="#fff" stroke="${INK}" stroke-width=".8">${d.ch}</text></g>`;
   }

@@ -1,9 +1,9 @@
 // Offline cache. Bump VERSION whenever files change so installed apps update.
-const VERSION = 'v1';
+const VERSION = 'v2';
 const CACHE = 'little-chef-' + VERSION;
 const FILES = [
   './', 'index.html', 'manifest.webmanifest', 'css/style.css',
-  'js/app.js', 'js/art.js', 'js/audio.js', 'js/store.js',
+  'js/app.js', 'js/art.js', 'js/kart.js', 'js/food.js', 'js/audio.js', 'js/store.js',
   'fonts/fredoka.woff2', 'icons/icon.svg', 'icons/icon-180.png', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/icon-maskable-512.png',
 ];
 
