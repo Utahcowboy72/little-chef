@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><rect width="512" height="512" rx="112" fill="#ffd166"/>
+<circle cx="256" cy="270" r="190" fill="#fff6e5"/>
+<g transform="translate(66 72) scale(1.9)"><path d="M46 118 L154 118 L140 186 L60 186 Z" fill="#7fd8be" stroke="#5b3a29" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M64 120 L72 184 M82 120 L86 184 M100 120 L100 184 M118 120 L114 184 M136 120 L128 184" stroke="#5bbfa3" stroke-width="5"/>
+    <path d="M46 118 L154 118 L140 186 L60 186 Z" fill="none" stroke="#5b3a29" stroke-width="4" stroke-linejoin="round"/><path d="M42 120 Q40 66 100 64 Q160 66 158 120 Z" fill="#d9bf8d" stroke="#5b3a29" stroke-width="4" stroke-linejoin="round"/>
+      <path d="M62 92 Q72 76 92 74" fill="none" stroke="#e6d5b5" stroke-width="6" stroke-linecap="round"/><g stroke="#5b3a29" stroke-width="4" stroke-linejoin="round">
+      <path d="M36 120 Q30 100 50 96 Q40 80 64 76 Q60 56 88 56 Q88 36 108 34 Q104 22 100 14 Q132 22 128 46 Q150 52 140 72 Q166 76 154 96 Q172 102 164 120 Q100 132 36 120 Z" fill="#ff9ccf"/></g>
+      <path d="M52 108 Q76 112 100 110 M66 88 Q88 92 112 88 M84 66 Q100 70 116 66" fill="none" stroke="#ffc9e5" stroke-width="5" stroke-linecap="round"/><g transform="translate(104 22) rotate(0) scale(.9)">
+    <path d="M0 -2 Q2 -14 10 -16" fill="none" stroke="#3f8f3f" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="0" cy="5" r="10" fill="#e8283c" stroke="#5b3a29" stroke-width="2.5"/>
+    <circle cx="-4" cy="1" r="3" fill="#ff8a95"/></g><rect x="68.2" y="95.0" width="3.6" height="10" rx="1.8" fill="#4b8dff" transform="rotate(30 70 100)"/><rect x="118.2" y="85.0" width="3.6" height="10" rx="1.8" fill="#ffd23f" transform="rotate(-40 120 90)"/><rect x="138.2" y="103.0" width="3.6" height="10" rx="1.8" fill="#5cc46a" transform="rotate(70 140 108)"/><rect x="90.2" y="73.0" width="3.6" height="10" rx="1.8" fill="#c06ccf" transform="rotate(10 92 78)"/><rect x="58.2" y="107.0" width="3.6" height="10" rx="1.8" fill="#ff5a5a" transform="rotate(-20 60 112)"/></g></svg>
